@@ -62,4 +62,7 @@ This repository contains four projects:
 ## Deployment Notes
 - AWS
   - Use application-aws.properties with RDS MySQL
-  
+
+- GCP
+  - Use application-gcp.properties with Cloud SQL MySQL
+  - Can integrate with GCP Cloud Storage
