@@ -59,3 +59,7 @@ This repository contains four projects:
 - Backend: run `mvn -q -e -DskipTests package` at repo root to build services.
 - Frontend: run `npm install` then `npm run dev` inside `frontend-app`.
 
+## Deployment Notes
+- AWS
+  - Use application-aws.properties with RDS MySQL
+  
