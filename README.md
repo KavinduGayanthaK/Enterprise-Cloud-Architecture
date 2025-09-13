@@ -66,3 +66,7 @@ This repository contains four projects:
 - GCP
   - Use application-gcp.properties with Cloud SQL MySQL
   - Can integrate with GCP Cloud Storage
+
+
+## GCP Connect Video Link
+- https://drive.google.com/file/d/1QgglFbIG1X7ZD6wHIN72bY2dxL-s6beQ/view?usp=sharing
