@@ -17,7 +17,15 @@ This repository contains four projects:
   - POST /courses
   - DELETE /courses/{id}
 - Default port: 8081
-- Configure MySQL settings
+- Database Configuration
+  - Currently, the course-service is configured only for AWS RDS MySQL.
+    - application-aws.properties
+      - MySQL Configurations (AWS RDS)
+        - spring.datasource.host=database-1.c3q0umy2autw.eu-north-1.rds.amazonaws.com
+        - spring.datasource.port=3306
+        - spring.datasource.url=jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/eca_courses?createDatabaseIfNotExist=true
+        - spring.datasource.username=root
+        - spring.datasource.password=Kavindu1234*
 
 ### 2. student-service
 - Document: Student(registrationNumber, fullName, address, contact, email)
@@ -50,3 +58,4 @@ This repository contains four projects:
 
 - Backend: run `mvn -q -e -DskipTests package` at repo root to build services.
 - Frontend: run `npm install` then `npm run dev` inside `frontend-app`.
+
