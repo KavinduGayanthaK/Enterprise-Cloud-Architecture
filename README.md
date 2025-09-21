@@ -70,3 +70,8 @@ This repository contains four projects:
 
 ## GCP Connect Video Link
 - https://drive.google.com/file/d/1QgglFbIG1X7ZD6wHIN72bY2dxL-s6beQ/view?usp=sharing
+
+## Student Details
+ - Student Mail - gayanthakavindu3@gmail.com
+ - Student Id - 2301671100
+ - Student Name - Kavindu Gayantha
